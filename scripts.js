@@ -1,4 +1,4 @@
-alert('Exercises by: samuelvictorol (github)');
+alert('Exercises Solved by: Samuel Victor\nsamuelvictorol (github)');
 
 // Exercise 1   
 
@@ -22,6 +22,7 @@ document.querySelector('#calculate-ex1').addEventListener('click', function() {
 });
 
 // Exercise 2
+
 function isPrime(num, i = 2) {
     if (num < 2 || (num % i === 0 && i < num)) return false;
     if (i * i > num) return true;
@@ -47,6 +48,7 @@ document.querySelector('#calculate-ex2').addEventListener('click', function() {
 });
 
 // Exercise 3
+
 function factorial(num) {
     if (num < 0) return undefined;
     if (num === 0 || num === 1) return 1;
