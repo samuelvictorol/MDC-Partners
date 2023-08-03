@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+    <!-- fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jura:wght@700&family=Montserrat:wght@300&display=swap');
+    </style>
+</head>
+<body>
+    <div id="app">
+        <nav>
+            <a href="#ex1">Ex.1</a>
+            <a href="#ex2">Ex.2</a>
+            <a href="#ex3">Ex.3</a>
+            <a href="#ex4">Ex.4</a>
+            <a href="#ex5">Ex.5</a>
+            <a href="#ex6">Ex.6</a>
+            <a href="#ex7">Ex.7</a>
+            <a href="#ex8">Ex.8</a>
+        </nav>
+        <section id="ex1">
+            <h1>Exercise 1</h1>
+            <div class="ex-box">
+                <input type="number" placeholder="Type a number">
+                <input type="number" placeholder="Type a number">
+                <select name="operations" id="operations">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
+                <button id="calculate-ex1">Simple Calculator</button>
+            </div>
+        </section>
+        <section id="ex2">
+            <h1>Exercise 2</h1>
+            <div class="ex-box">
+                <input type="number" placeholder="Enter a number to check if it is a prime">
+                <button id="calculate-ex2">Prime Numbers</button>
+            </div>
+        </section>
+        <section id="ex3">
+            <h1>Exercise 3</h1>
+            <div class="ex-box">
+                <input type="number" placeholder="Enter a number to check factorial.">
+                <button id="calculate-ex3">Factorial</button>
+            </div>
+        </section>
+        <section id="ex4">
+            <h1>Exercise 4</h1>
+            <div class="ex-box">
+                <input type="text" placeholder="Enter a number to check if it is a palindrome">
+                <button id="calculate-ex4">Palindrome</button>
+            </div>
+        </section>
+        <section id="ex5">
+            <h1>Exercise 5</h1>
+            <div class="ex-box">
+                <input type="number" placeholder="1-10" min="1" max="10">
+                <button id="calculate-ex5">Table</button>
+            </div>
+            <div class="modal-wrapper">
+                <table class="table-ex5">
+                    <thead>
+                        <tr>
+                            <th>Number</th>
+                            <th>Number Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+                <button id="close-ex5">Close</button>
+            </div>
+        </section>
+        <section id="ex6">
+            <h1>Exercise 6</h1>
+            <div class="ex-box">
+                <input type="text" placeholder="Enter a string">
+                <button id="calculate-ex6">Vowel Counter</button>
+            </div>
+        </section>
+        <section id="ex7">
+            <h1>Exercise 7</h1>
+            <div class="ex-box">
+                <input type="number" placeholder="discipline note 1">
+                <input type="number" placeholder="discipline note 2">
+                <input type="number" placeholder="discipline note 3">
+                <button id="calculate-ex7">Grade Average</button>
+            </div>
+        </section>
+        <section id="ex8">
+            <h1>Exercise 8</h1>
+            <div class="ex-box">
+                <input type="number" placeholder="initial capital">
+                <input type="number" placeholder="interest rate (%)">
+                <input type="number" placeholder="investment time (months)">
+                <button id="calculate-ex8">Interest Calculation</button>
+            </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
